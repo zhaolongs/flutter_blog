@@ -26,6 +26,7 @@ class _RightContentWidgetState extends State<RightContentWidget> {
     return Container(
       child: Column(
         children: [
+          Container(child: Image.asset("assets/images/code.webp"),padding: EdgeInsets.all(22),),
           //第一行的搜索
           SearchWidget(),
           //第二行的分类
